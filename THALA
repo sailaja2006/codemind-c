@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int N;
+	scanf("%d",&N);
+	if(N==7)
+	{
+	    printf("THALA");
+	}
+	else{
+	    printf("SADGE");
+	}
+
+}
+
