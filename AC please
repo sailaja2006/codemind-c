@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+int T;
+scanf("%d",&T);
+if(T>30)
+{
+    printf ("YES");
+}
+else{
+    printf("NO");
+}
+}
+
