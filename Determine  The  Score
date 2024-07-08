@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+    int t, x, n;
+    scanf("%d", &t); // Input the number of test cases
+
+    while (t--) {
+        scanf("%d%d", &x, &n); // Input the total points and number of test cases passed
+        printf("%d\n", (x/10) * n); // Calculate and print Chef's score
+    }
+
+    return 0;
+}
