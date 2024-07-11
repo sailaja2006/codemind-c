@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+
+    int chef_sales = a * c;
+    int chefina_sales = b * c;
+
+    if (chef_sales > chefina_sales) {
+        printf("%d\n", chef_sales);
+    } else {
+        printf("%d\n", chefina_sales);
+    }
+
+    return 0;
+}
