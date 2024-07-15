@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    int t;
+    scanf("%d", &t);
+
+    for (int i = 0; i < t; i++) {
+        int x, y;
+        scanf("%d %d", &x, &y);
+
+        int hours_worked = (y - x + 12) % 12;
+
+        printf("%d\n", hours_worked);
+    }
+
+    return 0;
+}
