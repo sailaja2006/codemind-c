@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+ int s;
+ scanf ("%d",&s);
+ if(s>=41)
+ {
+     printf ("YES");
+ }
+ else
+ {
+     printf("NO");
+ }
+}
+
